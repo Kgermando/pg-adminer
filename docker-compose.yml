@@ -40,7 +40,7 @@ services:
     restart: unless-stopped
     environment:
       RABBITMQ_DEFAULT_USER: rabbitmq
-      RABBITMQ_DEFAULT_PASS: pg@2026
+      RABBITMQ_DEFAULT_PASS: rabbitmq@2026
       RABBITMQ_DEFAULT_VHOST: /
     ports:
       - "5672:5672"   # AMQP
